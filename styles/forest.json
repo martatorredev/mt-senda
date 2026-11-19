@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "title": "Forest",
+  "settings": {
+    "color": {
+      "palette": [
+        { "slug": "background", "name": "Background", "color": "#1D2621" },
+        { "slug": "foreground", "name": "Foreground", "color": "#F7F5F0" },
+        { "slug": "accent", "name": "Accent", "color": "#C2D9C8" },
+        { "slug": "surface", "name": "Surface", "color": "#334139" }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var:preset|color|background",
+      "text": "var:preset|color|foreground"
+    }
+  }
+}

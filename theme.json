@@ -125,6 +125,9 @@
           "color": {
             "text": "var:preset|color|foreground"
           }
+        },
+        "typography": {
+          "textDecoration": "underline"
         }
       }
     },
