@@ -70,7 +70,12 @@
       ]
     },
     "spacing": {
-      "units": ["px", "rem", "%", "vw"],
+      "units": [
+        "px",
+        "rem",
+        "%",
+        "vw"
+      ],
       "spacingSizes": [
         {
           "slug": "20",
@@ -121,6 +126,12 @@
             "text": "var:preset|color|foreground"
           }
         }
+      }
+    },
+    "spacing": {
+      "padding": {
+        "left": "1.25rem",
+        "right": "1.25rem"
       }
     }
   }

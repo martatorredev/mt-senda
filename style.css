@@ -45,3 +45,11 @@ body {
     outline: 3px solid var(--wp--preset--color--accent);
     outline-offset: 3px;
 }
+
+/*
+ * Keep the mobile navigation overlay aligned with the site content.
+ */
+.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
