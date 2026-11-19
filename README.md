@@ -45,13 +45,13 @@ Please report bugs, accessibility problems, and improvement suggestions through 
 
 ## Author
 
-**Marta Torre**
+### Marta Torre
 
-Website: https://martatorre.dev
+Website: [martatorre.dev](https://martatorre.dev/en/)
 
-WordPress.org: https://profiles.wordpress.org/martatorre/
+WordPress.org: [martatorre](https://profiles.wordpress.org/martatorre/)
 
-GitHub: https://github.com/martatorredev
+GitHub: [martatorredev](https://github.com/martatorredev)
 
 ## License
 
