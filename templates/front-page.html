@@ -3,58 +3,7 @@
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
 
-    <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
-    <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
-
-        <!-- wp:paragraph {"textColor":"accent","fontSize":"small"} -->
-        <p class="has-accent-color has-text-color has-small-font-size">A SPACE FOR IDEAS</p>
-        <!-- /wp:paragraph -->
-
-        <!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"clamp(3rem, 7vw, 5.5rem)","lineHeight":"1.08","letterSpacing":"-0.035em"}}} -->
-        <h1 class="wp-block-heading" style="font-size:clamp(3rem, 7vw, 5.5rem);line-height:1.08;letter-spacing:-0.035em">A quieter way.</h1>
-        <!-- /wp:heading -->
-
-        <!-- wp:paragraph {"fontSize":"large"} -->
-        <p class="has-large-font-size">Thoughtful stories, simple perspectives, and room for what matters.</p>
-        <!-- /wp:paragraph -->
-
-    </div>
-    <!-- /wp:group -->
-
-    <!-- wp:separator {"backgroundColor":"surface"} -->
-    <hr class="wp-block-separator has-text-color has-surface-color has-alpha-channel-opacity has-surface-background-color has-background"/>
-    <!-- /wp:separator -->
-
-    <!-- wp:group {"anchor":"latest-posts","layout":{"type":"constrained"}} -->
-    <div id="latest-posts" class="wp-block-group">
-
-        <!-- wp:heading {"level":2} -->
-        <h2 class="wp-block-heading">Latest stories</h2>
-        <!-- /wp:heading -->
-
-        <!-- wp:query {"query":{"perPage":3,"postType":"post","order":"desc","orderBy":"date","inherit":false}} -->
-        <div class="wp-block-query">
-
-            <!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
-                <!-- wp:group {"style":{"spacing":{"blockGap":"0.5rem"}},"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:post-title {"isLink":true,"level":3} /-->
-                    <!-- wp:post-date {"fontSize":"small"} /-->
-                </div>
-                <!-- /wp:group -->
-            <!-- /wp:post-template -->
-
-            <!-- wp:query-no-results -->
-                <!-- wp:paragraph -->
-                <p>New stories will appear here.</p>
-                <!-- /wp:paragraph -->
-            <!-- /wp:query-no-results -->
-
-        </div>
-        <!-- /wp:query -->
-
-    </div>
-    <!-- /wp:group -->
+    <!-- wp:post-content {"layout":{"type":"constrained"}} /-->
 
 </main>
 <!-- /wp:group -->
